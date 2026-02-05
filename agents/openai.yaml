@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hero UI (v2)"
+  short_description: "Build React components with Hero UI v2 using local docs"
+  default_prompt: "Use local Hero UI docs to build or update components in existing React projects; assume @heroui/react@2.8.x unless asked otherwise."
