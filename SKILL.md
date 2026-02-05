@@ -36,7 +36,7 @@ node scripts/search_docs.js "Button" --path references/heroui-repo/apps/docs/con
 ```
 
 Notes:
-- The script uses `rg` if available, otherwise falls back to `grep`.
+- The script uses `rg` if available, otherwise falls back to `grep`, then a pure JS scan.
 - Prefer reading the specific doc file(s) surfaced by search before implementing.
 - If the docs repo is missing, the script will auto-clone it.
 
